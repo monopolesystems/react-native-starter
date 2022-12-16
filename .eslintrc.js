@@ -17,5 +17,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'only-warn'],
-  rules: {},
+  rules: {
+    'arrow-body-style': ['warn', 'as-needed'],
+  },
 }
